@@ -4,10 +4,18 @@ isPlayer1 = True
 
 def Function1(i):
  if i ==1:
-  return True
+   return True
+ else:
+    return False
+
+ if i ==2:
+   return True
+ else:
+   return False 
 
 def Function2(i):
-  return(i+1)
+ pass 
+ 
 
 running = True
 
@@ -16,25 +24,9 @@ while running:
     print ('Player1')
  else:
    print ('Player2')
-
-  if function1 = True 
-  print('Player One') 
-
-
-
-
-
-
-#def addone(i):
-  #return(i+1)
-
-#def addtwo(i):
-  #return(i+2)
+ if Function1 is True:
+   print('Player One |Score|',Function1) 
  
-  
- #if(str(mynamenoa(n,l)) == ss
- #a = int(input("number: "))
-
-#print(addone(a))
-#print(addtwo(a))
+ if (Score) == 20:
+   running = False
 
